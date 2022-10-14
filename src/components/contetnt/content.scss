@@ -1,0 +1,46 @@
+.content{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  &-currency{
+    width: 50%;
+    height: 400px;
+    background-color: #FFDF8C;
+    border-radius: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px 5px dimgray;
+
+    &-inputs{
+      width: 330px;
+      height: 200px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-items: center;
+
+      input{
+        width: 250px;
+        height: 40px;
+        border: none;
+        border-radius: 20px 0 0 20px;
+        padding-left: 10px;
+      }
+      select{
+        height: 41px;
+        border: none;
+        border-radius: 0 20px 20px 0;
+        cursor: pointer;
+        background-color: antiquewhite;
+      }
+      select:hover{
+        background-color: black;
+        color: #FFFFFF;
+        transition: 0.3s;
+      }
+    }
+  }
+}
